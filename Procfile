@@ -1,1 +1,1 @@
-web: java -jar target/parking-0.0.1-SNAPSHOT.jar --port $PORT
+web: java -jar target/parking-0.0.1-SNAPSHOT.jar
