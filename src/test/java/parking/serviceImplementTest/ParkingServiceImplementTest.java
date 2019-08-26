@@ -18,13 +18,12 @@ import org.mockito.MockitoAnnotations;
 
 import org.springframework.test.context.junit4.SpringRunner;
 
-import parking.dto.model.RecordDto;
-import parking.exception.ResourceNotFoundException;
-import parking.model.Fields;
-import parking.model.Record;
-import parking.repository.ParkingRepository;
-
-import parking.service.ParkingServiceImpl;
+import fr.grlescou.parking.dto.model.RecordDto;
+import fr.grlescou.parking.exception.ResourceNotFoundException;
+import fr.grlescou.parking.model.Fields;
+import fr.grlescou.parking.model.Record;
+import fr.grlescou.parking.repository.ParkingRepository;
+import fr.grlescou.parking.service.ParkingServiceImpl;
 
 @RunWith(SpringRunner.class)
 public class ParkingServiceImplementTest {
