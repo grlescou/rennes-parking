@@ -1,0 +1,159 @@
+#map {
+    width: 100%;
+    height: 550px;
+    margin: 2px auto auto auto;
+
+    }
+
+header {
+    width: 100%;
+    background-color: blue;
+    height: 60px;
+    border-bottom: solid 5px gray;
+
+    }
+#name{
+  display: inline-block;
+  width: 40%;
+  color : white;
+  margin-left: 10px;
+  float: left;
+}
+
+#form{
+  display: inline-block;
+  width: 50%;
+  color : white;
+  margin-right: 10px;
+  float: right;
+  padding-top: 20px;
+
+}
+
+#form input{
+ width: 150px;
+ height: 20px;
+ border-radius: 5px 5px 5px 5px;
+
+
+}
+
+#form button{
+ width: 100px;
+ height: 25px;
+ border-radius: 5px 5px 5px 5px;
+ background-color: green;
+ color: white;
+
+}
+
+  #parkingtable {
+     width: 100%;
+     height: 350px;
+     margin: 20px 0px auto auto;
+     overflow-y:scroll;
+     overflow-x:hidden;
+
+  }
+
+
+  .ttile{
+    width: 100%;
+    height: 40px;
+    #border: solid 1px orange;
+    display: block;
+    position: relative;
+  }
+
+
+  .tdiv { border-top: solid 0.5px gray;
+    height: 90px;
+    width: 95%;
+    padding: 5px;
+    margin-left:20px;
+    margin-right:20px;
+
+  }
+
+  .tkey {
+      display: inline-block;
+      #border: solid 1px red;
+      width: 40%;
+      margin-left: 20px;
+      padding-top: 5px;
+  }
+
+  .tdistance{
+      display: inline-block;
+    #border: solid 1px blue;
+    float: right;
+    text-align: right;
+      width: 35%;
+      margin-right: 20px;
+  }
+
+    .tdiv .tkey p {
+      #border: solid 1px green;
+      #float: right;
+      font-weight: bold;
+      font-size: 1em;
+      text-align: left;
+      width: 100%;
+
+    }
+
+    .tdiv .tdistance p {
+      #border: solid 1px green;
+      #float: right;
+      font-weight: bold;
+      font-size: 1em;
+      text-align: right;
+      width: 100%;
+
+    }
+
+
+
+.imgdiv {
+  display: inline-block;
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.imgdiv img{
+
+  width: 100%;
+  height: 100%;
+
+
+  }
+
+  .tcontent{
+    #border: solid 1px brown;
+    height: 10px;
+    width: 100%;
+    font-weight: normal;
+    font-size: 1em;
+
+  }
+
+.tmax {
+  display: inline-block;
+  float: left;
+  width: 40%;
+  text-align: left;
+
+
+}
+
+.tfree{
+  display: inline-block;
+  float: right;
+  width: 40%;
+  text-align: right;
+  margin-right: 20px;
+  color: green;
+
+}

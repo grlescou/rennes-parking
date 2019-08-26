@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Parking Rennes</title>
+         <!--<script type="text/javascript" src="data/data.json" ></script> -->
+         <script src="http://code.jquery.com/jquery-1.7.js" type="text/javascript"></script>
+ <script src="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7.3/leaflet.js"></script>
+       <link rel="stylesheet" href="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7.3/leaflet.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="http://leaflet.cloudmade.com/dist/leaflet.ie.css" /><![endif]-->
+
+        <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.2.3"></script>
+        <link type="text/css" rel="stylesheet" href="css/main.css"/>
+
+
+    </head>
+
+    <script type="text/javascript"  src="js/app.js"></script>
+    <body onload="initialize()">
+
+      <header>
+        <div id='name'> <h2>Rennes Parking Map</h2> </div>
+        <div id='form'>
+
+      <form id='locForm' action="" method="get">
+      lat :<input id="flat" type="text" placeholder="lat" name="lat" >
+      lon :<input id="flon" type="text" placeholder="lon" name="lon" >
+      dist : <input id="fdist" type="text" placeholder="dist" name="dist" >
+      <button type="submit" onclick="changeLocation();">Submit</button>
+    </form>
+
+        </div>
+
+      </header>
+        <div id="map" ></div>
+
+
+        <div id="parkingtable">
+
+
+
+        </div>
+
+        <script type="text/javascript">
+          initForm(myCurrentLocation, distance);
+
+          </script>
+
+
+
+
+
+    </body>
+</html>

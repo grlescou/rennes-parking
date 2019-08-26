@@ -1,0 +1,98 @@
+var parkingList =[
+        {
+            "datasetid": "export-api-parking-citedia",
+            "recordid": "e8bc66408cbeb7eabdbe30001c6b16d53f0ca4f2",
+            "fields": {
+                "status": "OUVERT",
+                "tarif_1h30": "2.20",
+                "dist": "0",
+                "key": "Colombier",
+                "tarif_1h": "1.60",
+                "max": 1115,
+                "orgahoraires": "24h/24 et 7j/7. Bureau ouvert, 7h30 à 20h30 sauf dimanche et jours fériés.",
+                "tarif_3h": "4.00",
+                "tarif_2h": "2.80",
+                "free": 580,
+                "tarif_30": "0.80",
+                "tarif_4h": "5.20",
+                "geo": [
+                    48.10476252,
+                    -1.678624547
+                ],
+                "id": "310",
+                "tarif_15": "0.40"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.678624547,
+                    48.10476252
+                ]
+            },
+            "record_timestamp": "2019-08-24T16:00:04+00:00"
+        },
+        {
+            "datasetid": "export-api-parking-citedia",
+            "recordid": "1df994d9e3bebb8fdfca58ea5e8c541af04a3c6d",
+            "fields": {
+                "status": "OUVERT",
+                "tarif_1h30": "2.20",
+                "dist": "251",
+                "key": "Charles-de-gaulle",
+                "tarif_1h": "1.60",
+                "max": 756,
+                "orgahoraires": "7j/7. Lundi au dimanche, 5h à 2h.~~~Bureau ouvert : lundi, 8h à 1h, mardi au samedi, 9h à 1h, dimanche et les jours fériés, 14h à 1h.",
+                "tarif_3h": "4.00",
+                "tarif_2h": "2.80",
+                "free": 573,
+                "tarif_30": "0.80",
+                "tarif_4h": "5.20",
+                "geo": [
+                    48.10623522,
+                    -1.676050081
+                ],
+                "id": "1815",
+                "tarif_15": "0.40"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.676050081,
+                    48.10623522
+                ]
+            },
+            "record_timestamp": "2019-08-24T16:00:04+00:00"
+        },
+        {
+            "datasetid": "export-api-parking-citedia",
+            "recordid": "e342921da7175dda9b98ce666cdd125c1c11a0e5",
+            "fields": {
+                "status": "OUVERT",
+                "tarif_1h30": "1.20",
+                "dist": "459",
+                "key": "Arsenal",
+                "tarif_1h": "0.80",
+                "max": 605,
+                "orgahoraires": "Parking ouvert 7j/7. Lundi au jeudi, 6h30 à 22h et du vendredi au dimanche, 6h30 à 6h.~~~Bureau du Colombier ouvert : 7h30 à 20h30 sauf dimanche et jours fériés.~~~",
+                "tarif_3h": "2.40",
+                "tarif_2h": "1.60",
+                "free": 579,
+                "tarif_30": "0.40",
+                "tarif_4h": "3.20",
+                "geo": [
+                    48.1043058108,
+                    -1.6847819587
+                ],
+                "id": "1078",
+                "tarif_15": "0.20"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.6847819587,
+                    48.1043058108
+                ]
+            },
+            "record_timestamp": "2019-08-24T16:00:04+00:00"
+        }
+    ];
