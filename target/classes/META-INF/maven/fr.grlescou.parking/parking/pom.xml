@@ -72,20 +72,26 @@
 	<build>
    <plugins>
       <plugin>
-          <artifactId>maven-assembly-plugin</artifactId>
-          <configuration>
-          <archive>
-               <manifest>
-                    <mainClass>parking.ParkingApplication</mainClass>
-               </manifest>
-          </archive>
-     <descriptorRefs>
-          <descriptorRef>jar-with-dependencies</descriptorRef>
-      </descriptorRefs>
- </configuration>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+            <mainClass>parking.ParkingApplication</mainClass>
+        </configuration>
+
+        <executions>
+            <execution>
+                <goals>
+                    <goal>repackage</goal>
+                </goals>
+            </execution>
+       </executions>
+
 </plugin>
 </plugins>
 </build>
+
+
+ 
   
   
 </project>
