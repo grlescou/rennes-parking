@@ -23,7 +23,7 @@ public class Swagger2Config {
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2).select()
 				.apis(RequestHandlerSelectors
-						.basePackage("parking.rest"))
+						.basePackage("fr.grlescou.parking.rest"))
 				.paths(PathSelectors.regex("/.*"))
 				.build().apiInfo(apiEndPointsInfo());
 	}

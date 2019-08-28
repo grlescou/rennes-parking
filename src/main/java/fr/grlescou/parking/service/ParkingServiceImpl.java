@@ -26,9 +26,7 @@ public class ParkingServiceImpl implements ParkingService{
      * filter the results as per the given date based on data present in
      * trip schedule collection.
      *
-     * @param sourceStopCode
-     * @param destinationStopCode
-     * @param tripDate
+     * @param
      * @return list of Parking Record "RecordDto" on given distance
 	 * @throws ResourceNotFoundException 
      */
