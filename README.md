@@ -27,7 +27,7 @@ mvn package
 
 3) To execute the application use the following command:
 ```
-java -jar target/parking-0.0.0.1-SNAPSHOT.jar
+java -jar target/parking-0.0.1-SNAPSHOT.jar
 ```
 
 -Notes that the default port 8080 can be changed at any time in the resources file → 
